@@ -3,6 +3,10 @@
 Detect trivially weak elliptic-curve keys — the kind where the private value
 is a small integer instead of a random 384-bit number.
 
+<p align="center">
+  <img src="assets/quattro.jpg" alt="quattro" width="600">
+</p>
+
 Inspired by the [eMudhra incident (October 2026)](https://bugzilla.mozilla.org/show_bug.cgi?id=2083449),
 where eight intermediate CA certificates shipped with P-384 private keys
 below 256. One of them was the number **4**.
